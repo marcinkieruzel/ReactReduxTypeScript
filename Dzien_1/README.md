@@ -17,3 +17,12 @@ Stwórz komponent `Clock`. Jego zadaniem jest wyświetlanie aktualnej daty i god
 - Upewnij się, że po kliknięciu w przycisk component `Clock` pokazuje datę dla odpowiedniego miasta.
 
 !!! Uwaga. Zwróć szczególną uwagę na kompozycję komponentów. Pamiętaj, że dane w React przekazujemy – zgodnie z architekturą Flux – w jednym kierunku z góry na dół.
+
+### Zadanie 2.
+Stwórz komponent "MathTest". Zadaniem komponentu jest wygenerowanie widoku dla Testu matematycznego.
+- Wylosuj działanie matematyczne `["+", "-", "*", "/"]` oraz dwie liczby z zakresu od 1 do 10. Możesz to zrobić przy pomocy konstrukcji `Math.round(Math.random() * (max - min) + min)`
+- Wylosuj także 3 błędne odpowiedzi i przetasuj je z prawidłową
+- Stwórz obiekt użytkownika i zapisz w nim punktację, na początku 0.
+- Stwórz formularz w którym zapytasz użytkownika o wynik działania oraz pozwolisz mu wpisać odpowiedź. Prawidłowa odpowiedć powoduje dodanie punktu, błędna odebranie.
+- Daj użytkownikowi na odpowiedzi 1 min, po czym zablokuj grę.
+- Ciesz się swoim refleksem matematycznym.
