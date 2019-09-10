@@ -13,3 +13,4 @@ Stwórz komponent `Clock`. Jego zadaniem jest wyświetlanie aktualnej daty i god
 ---- Hour </br>
 ---- Minute </br>
 ---- Second </br>
+- Stwórz menu z przełącznikami daty na bazie tablicy: `[{city: "Paris", gmt: 0}, {city: "New York", gmt: -4}, { city: "Warsaw", gmt: 1}, {city: "Tokyo", gmt: 9 },{city: "Moscow", gmt: 3}]`. Poszczególny przełącznik powinien wyglądać mniej więcej tak: `<button data-time={el.gmt}>{el.city}</button>` oraz posiadać metodę `onClick`.
