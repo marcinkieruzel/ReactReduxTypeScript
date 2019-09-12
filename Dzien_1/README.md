@@ -26,3 +26,9 @@ Stwórz komponent "MathTest". Zadaniem komponentu jest wygenerowanie widoku dla 
 - Stwórz formularz w którym zapytasz użytkownika o wynik działania oraz pozwolisz mu wpisać odpowiedź. Prawidłowa odpowiedć powoduje dodanie punktu, błędna odebranie.
 - Daj użytkownikowi na odpowiedzi 1 min, po czym zablokuj grę.
 - Ciesz się swoim refleksem matematycznym.
+
+### Zadanie 3.
+Stwórz komponent MemeGenerator. Połacz się z api https://api.imgflip.com/.
+- Pobierz listę templatów z endpointu URL: https://api.imgflip.com/get_memes. Stwórz galerię templatów.
+- Stwórz formularz w którym pozwolisz użytkownikowi na wybranie template dla mema a następnie dasz mu możliwość dodania tekstów do mema. Formularz powinien zawierać możliwość wyboru template (input type radio) oraz dwa inputy tekstowe.
+- Wyświetl mema użytkownikowi strony

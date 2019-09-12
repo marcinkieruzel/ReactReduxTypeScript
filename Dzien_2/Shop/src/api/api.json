@@ -1,0 +1,20 @@
+{
+  "products": [{
+    "id": 1,
+    "name": "czekolada",
+    "price": 20
+    }],
+    "orders": [
+      {
+        "product": "czeko",
+        "product_id": 1,
+        "client": "kazik@kazikoduje.pl"
+      }
+    ],
+    "clients": [
+      {
+        "id": 1,
+        "email": "kazik@kazikkoduje.pl"
+      }
+    ]
+}
