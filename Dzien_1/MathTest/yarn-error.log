@@ -1,0 +1,74 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn install
+
+PATH: 
+  /home/kazik/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/kazik/.dotnet/tools:/usr/local/bin:/home/kazik/CMD:/home/kazik/Android/Sdk/emulator:/home/kazik/Android/Sdk/tools:/home/kazik/Android/Sdk/tools/bin:/home/kazik/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.16.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/kazik/Pulpit/ReactReduxTypeScript/Dzien_1/MathTest/package.json: Unexpected token } in JSON at position 1168
+      at JSON.parse (<anonymous>)
+      at /usr/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "rrt",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "browserslist": [
+      "> 1%",
+      "last 2 versions"
+    ],
+    "scripts": {
+      "start": "./node_modules/.bin/webpack",
+      "dev": "./node_modules/.bin/webpack-dev-server --open --hot --inline"
+    },
+    "dependencies": {
+      "@babel/core": "^7.5.5",
+      "@babel/plugin-proposal-class-properties": "^7.5.5",
+      "@babel/preset-env": "^7.5.5",
+      "@babel/preset-react": "^7.0.0",
+      "autoprefixer": "^9.6.1",
+      "axios": "^0.19.0",
+      "babel-loader": "^8.0.6",
+      "css-loader": "^3.0.0",
+      "file-loader": "^4.0.0",
+      "html-webpack-plugin": "^3.2.0",
+      "lodash": "^4.17.15",
+      "mini-css-extract-plugin": "^0.8.0",
+      "node-sass": "^4.12.0",
+      "postcss-loader": "^3.0.0",
+      "react": "^16.8.6",
+      "react-dom": "^16.8.6",
+      "react-redux": "^7.1.0",
+      "redux": "^4.0.4",
+      "redux-logger": "^3.0.6",
+      "redux-thunk": "^2.3.0",
+      "sass-loader": "^7.1.0",
+      "style-loader": "^0.23.1",
+      "webpack": "^4.39.3",
+      "webpack-cli": "^3.3.8",
+      "webpack-dev-server": "^3.8.0",
+      "dispatch": "^1.0.2",
+      "prop-types": "^15.7.2",
+      "react-router-dom": "^5.0.1",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
