@@ -10,10 +10,14 @@ require('bootstrap/dist/css/bootstrap.min.css')
  * @type {[type]}
  */
  import shopReducer from './reducers/shopReducer';
+ import productsReducer from './reducers/productsReducer';
+ import adminFormReducer from './reducers/adminFormReducer';
 
 
 const reducers = combineReducers({
-  shop: shopReducer
+  shop: shopReducer,
+  products: productsReducer,
+  adminForm: adminFormReducer
 })
 
 const store = createStore(reducers, applyMiddleware(logger));

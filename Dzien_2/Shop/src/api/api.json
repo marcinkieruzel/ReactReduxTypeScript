@@ -1,20 +1,24 @@
 {
-  "products": [{
-    "id": 1,
-    "name": "czekolada",
-    "price": 20
-    }],
-    "orders": [
-      {
-        "product": "czeko",
-        "product_id": 1,
-        "client": "kazik@kazikoduje.pl"
-      }
-    ],
-    "clients": [
-      {
-        "id": 1,
-        "email": "kazik@kazikkoduje.pl"
-      }
-    ]
+  "products": [
+    {
+      "productName": "Czekolada",
+      "productDescription": "Pyszna czekolada",
+      "productImage": "https://cdn.galleries.smcloud.net/t/galleries/gf-oxou-vdne-q9xM_czekolada-najdrozsza-od-10-lat-664x442-nocrop.jpg",
+      "productPrice": "23",
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "product": "czeko",
+      "product_id": 1,
+      "client": "kazik@kazikoduje.pl"
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "email": "kazik@kazikkoduje.pl"
+    }
+  ]
 }
