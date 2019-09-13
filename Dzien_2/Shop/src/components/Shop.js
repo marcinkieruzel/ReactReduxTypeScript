@@ -19,6 +19,11 @@ export default function Shop({}){
     })
   }, []);
 
+  const handleCart = (event, e) => {
+    event.preventDefault();
+    dispatch({type: 'ADD_PRODUCT_TO_CART', payload: e})
+  }
+
   const jsxProducts = products.map((e,i) => {
     return (
       <div className="col-4">
@@ -28,7 +33,7 @@ export default function Shop({}){
             <h5 class="card-title">{e.productName}</h5>
             <p class="card-text">{e.productDescription}</p>
             <p>{e.productPrice}</p>
-            <a href="#" class="btn btn-primary">Dodaj do koszyka</a>
+            <a onClick={ event => handleCart(event, e)} href="#" class="btn btn-primary">Dodaj do koszyka</a>
           </div>
         </div>
       </div>
