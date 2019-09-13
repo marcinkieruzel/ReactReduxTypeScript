@@ -6,6 +6,20 @@
       "productImage": "https://cdn.galleries.smcloud.net/t/galleries/gf-oxou-vdne-q9xM_czekolada-najdrozsza-od-10-lat-664x442-nocrop.jpg",
       "productPrice": "23",
       "id": 1
+    },
+    {
+      "productName": "Czekolada",
+      "productDescription": "Super czekolada",
+      "productImage": "https://cdn.galleries.smcloud.net/t/galleries/gf-oxou-vdne-q9xM_czekolada-najdrozsza-od-10-lat-664x442-nocrop.jpg",
+      "productPrice": "30",
+      "id": 2
+    },
+    {
+      "productName": "Baton",
+      "productDescription": "Super button",
+      "productImage": "https://sklep.sante.pl/userdata/gfx/e823086134208677ace7617f44701dfb.jpg",
+      "productPrice": "4",
+      "id": 3
     }
   ],
   "orders": [

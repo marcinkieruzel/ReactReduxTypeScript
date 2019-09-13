@@ -4,6 +4,9 @@ function productsReducer(state = [], action) {
     case "ADD_PRODUCT":
     return [...state, action.payload];
     break;
+    case "ADD_PRODUCTS":
+    return action.payload;
+    break;
   }
 
   return state;
